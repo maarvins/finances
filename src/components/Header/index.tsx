@@ -1,10 +1,13 @@
 import {Logo} from "../Logo"
+import {Container, Content} from "./styles"
 
 export function Header() {
   return (
-    <header>
-      <Logo />
-      <button type="button">Nova transação</button>
-    </header>
+    <Container>
+      <Content>
+        <Logo />
+        <button type="button">Nova transação</button>
+      </Content>
+    </Container>
   )
 }
