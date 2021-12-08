@@ -1,5 +1,3 @@
-import {useState} from "react"
-import Modal from "react-modal"
 import {Logo} from "../Logo"
 
 import {Container, Content} from "./styles"
