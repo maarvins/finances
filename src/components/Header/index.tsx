@@ -1,7 +1,10 @@
+import {Logo} from "../Logo"
+
 export function Header() {
   return (
-    <>
-      <h1>Hello World</h1>
-    </>
+    <header>
+      <Logo />
+      <button type="button">Nova transação</button>
+    </header>
   )
 }
