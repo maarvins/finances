@@ -46,13 +46,12 @@ $ git clone https://github.com/maarvins/finances.git && cd finances-app
 Follow the steps below
 
 ```bash
-# Install the dependencies
-$ npm install
 
+//Instalar dependências
+    $ yarn install 
 
-# Start the project
-$ npm start
-```
+    //Startar o projeto
+    $yarn start
 
 ## 💻 Project
 
